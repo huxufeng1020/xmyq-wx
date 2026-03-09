@@ -1,0 +1,15 @@
+{
+    "id": "zw-tabbar",
+    "displayName": "zw-tabbar自定义tabbar",
+    "version": "1.0",
+    "description": "由于原生Tabbar不支持中间显示大图标和灵活的自定义，所以弄了个通用组件方便使用。",
+    "keywords": [
+        "tabbar,底部选项卡,底部菜单"
+    ],
+    "dcloudext": {
+        "category": [
+            "前端组件",
+            "通用组件"
+        ]
+    }
+}

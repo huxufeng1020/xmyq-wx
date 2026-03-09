@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user/user",
+    "pages/advance/advance",
+    "pages/advance/refer",
+    "pages/advance/method",
+    "pages/user/order",
+    "pages/user/orderDetail",
+    "pages/user/login",
+    "pages/user/register",
+    "pages/index/detail",
+    "pages/user/userInfo",
+    "pages/public/loading",
+    "pages/public/webview",
+    "pages/advance/result",
+    "pages/user/feedback"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "预定",
+    "navigationBarBackgroundColor": "#f6f6f6",
+    "backgroundColor": "#f6f6f6"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#b6985a",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tab/tab1.png",
+        "selectedIconPath": "static/tab/tab1-1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/advance/advance",
+        "iconPath": "static/tab/tab2.png",
+        "selectedIconPath": "static/tab/tab2-1.png",
+        "text": "预定"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "static/tab/tab4.png",
+        "selectedIconPath": "static/tab/tab4-1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "requiredPrivateInfos": [
+    "getLocation",
+    "chooseLocation"
+  ],
+  "permission": {},
+  "usingComponents": {}
+}

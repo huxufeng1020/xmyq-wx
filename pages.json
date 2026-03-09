@@ -1,0 +1,181 @@
+{
+	"pages": [
+		
+	{
+            "path" : "pages/index/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "首页",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/user",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/advance/advance",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "预定",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/advance/refer",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "提交",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+				,{
+				    "path" : "pages/advance/method",
+				    "style" :                                                                                    
+				    {
+				        "navigationBarTitleText": "支付",
+				        "enablePullDownRefresh": false
+				    }
+				    
+				}
+        ,{
+            "path" : "pages/user/order",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/orderDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单详情",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+				{
+				    "path" : "pages/user/login",
+				    "style" :                                                                                    
+				    {
+				        "navigationBarTitleText": "登录",
+				        "enablePullDownRefresh": false
+				    }
+				    
+				},
+				{
+					"path": "pages/user/register",
+					
+					"style": {
+						 "navigationBarTitleText": "注册"
+						//"navigationStyle":"custom"
+					}
+				}
+        ,{
+            "path" : "pages/index/detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+				,{
+				    "path" : "pages/user/userInfo",
+				    "style" :                                                                                    
+				    {
+				        "navigationBarTitleText": "个人信息",
+				        "enablePullDownRefresh": false
+				    }
+				    
+				}
+				,{
+				    "path" : "pages/public/loading",
+				    "style" :                                                                                    
+				    {
+				        "navigationBarTitleText": "",
+				        "enablePullDownRefresh": false
+				    }
+				    
+				}
+				,{
+				    "path" : "pages/public/webview",
+				    "style" :                                                                                    
+				    {
+				        "navigationBarTitleText": "",
+				        "enablePullDownRefresh": false
+				    }
+				    
+				}
+        ,{
+            "path" : "pages/advance/result",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/feedback",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "反馈和建议",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+		"tabBar": {
+			"color": "#333333",
+			"selectedColor": "#b6985a",
+			"borderStyle": "black",
+			"backgroundColor": "#ffffff",
+			"list": [{
+					"pagePath": "pages/index/index",
+					"iconPath": "static/tab/tab1.png",
+					"selectedIconPath": "static/tab/tab1-1.png",
+					"text": "首页"
+				},
+				{
+					"pagePath": "pages/advance/advance",
+					"iconPath": "static/tab/tab2.png",
+					"selectedIconPath": "static/tab/tab2-1.png",
+					"text": "预定"
+				},
+				// {
+				// 	"pagePath": "pages/mall/mall",
+				// 	"iconPath": "static/tab/tab3.png",
+				// 	"selectedIconPath": "static/tab/tab3-1.png",
+				// 	"text": "商城"
+				// },
+				{
+					"pagePath": "pages/user/user",
+					"iconPath": "static/tab/tab4.png",
+					"selectedIconPath": "static/tab/tab4-1.png",
+					"text": "我的"
+				}
+			]
+		},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "预定",
+		"navigationBarBackgroundColor": "#f6f6f6",
+		"backgroundColor": "#f6f6f6"
+	},
+	"permission": {
+	    "scope.userLocation": {
+	      "desc": "你的位置信息将用于小程序位置接口的效果展示" // 高速公路行驶持续后台定位
+	    }
+	  }
+}

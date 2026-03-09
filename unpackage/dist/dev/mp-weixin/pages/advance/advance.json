@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "预定",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "ren-calendar": "/components/ren-calendar/ren-calendar"
+  }
+}
