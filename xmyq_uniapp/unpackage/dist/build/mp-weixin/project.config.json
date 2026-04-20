@@ -5,16 +5,15 @@
   },
   "setting": {
     "urlCheck": false,
-    "es6": false,
+    "es6": true,
     "postcss": false,
     "minified": false,
     "newFeature": true,
-    "bigPackageSizeSupport": true,
-    "minifyWXML": true
+    "bigPackageSizeSupport": true
   },
   "compileType": "miniprogram",
   "libVersion": "",
-  "appid": "wx7c0264bf3a95f872",
+  "appid": "wxd6d37b94d2e0a43c",
   "projectname": "xmyq_uniapp",
   "condition": {
     "search": {

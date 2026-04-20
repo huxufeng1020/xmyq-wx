@@ -10479,13 +10479,13 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.title = exports.cdnUrl = exports.bgClass = exports.baseUrl = exports.baseLogo = exports.baseApiUrl = void 0;
 // // 前端路径
-var baseUrl = 'http://localhost:8000/h5/reserve/#';
+var baseUrl = 'http://yq.jpppw.com/h5/reserve/#';
 // api调用目录
 exports.baseUrl = baseUrl;
-var baseApiUrl = 'http://localhost:8000/api/reserve/';
+var baseApiUrl = 'http://yq.jpppw.com/api/reserve/';
 // cdn域名。没有就填写后端域名
 exports.baseApiUrl = baseApiUrl;
-var cdnUrl = 'http://localhost:8000/';
+var cdnUrl = 'http://yq.jpppw.com/';
 // logo使用base64编码
 exports.cdnUrl = cdnUrl;
 var baseLogo = '';

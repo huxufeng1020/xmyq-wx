@@ -7,8 +7,8 @@
   "setting": {
     "urlCheck": false,
     "es6": false,
-    "postcss": false,
-    "minified": false,
+    "postcss": true,
+    "minified": true,
     "newFeature": true,
     "bigPackageSizeSupport": true,
     "ignoreUploadUnusedFiles": true,
@@ -34,7 +34,7 @@
   },
   "compileType": "miniprogram",
   "libVersion": "3.8.9",
-  "appid": "wxa4581ec8638c9fe6",
+  "appid": "wxd6d37b94d2e0a43c",
   "projectname": "预约订餐",
   "condition": {},
   "editorSetting": {
