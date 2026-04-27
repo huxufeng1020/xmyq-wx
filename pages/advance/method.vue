@@ -139,6 +139,28 @@
 			confirmPay() {
 				let that = this;
 				let pay = null;
+				let orderMoney = that.orderDetail.table ? that.orderDetail.table.deposits : 0;
+				
+				// 0元订单直接跳转成功
+				if (orderMoney == 0 || orderMoney === '0' || orderMoney === '0.00') {
+					uni.showLoading({ title: '处理中...' });
+					// 调用后端接口确认订单状态
+					this.$api.orderOp(
+						{ id: that.orderDetail.id, action: 'confirm' },
+						data => {
+							uni.hideLoading();
+							if (data.code == 1) {
+								uni.navigateTo({
+									url: `/pages/advance/result?orderId=${that.orderDetail.id}&type=${that.payType}&orderType=${that.orderType}&payState=success`
+								});
+							} else {
+								this.$common.errorToShow(data.msg || '订单处理失败');
+							}
+						}
+					);
+					return;
+				}
+				
 				if (!that.payType) {
 					this.$common.normalToShow('请选择支付方式');
 					return;
